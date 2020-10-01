@@ -23,3 +23,29 @@ jenkins:
             key: "hudson.tasks.Maven$MavenInstallation$DescriptorImpl@maven-3.5.3"
       remoteFS: "/jenkins-dev"
       retentionStrategy: "always"
+  - permanent:
+      labelString: "DOCKER"
+      launcher:
+        nioSsh:
+          connectionDetails:
+            credentialsId: "devcje"
+            displayEnvironment: false
+            javaPath: "/etc/alternatives/java"
+            keyVerificationStrategy: "blindlyTrust"
+            port: 22
+          host: "ldevopdocker"
+      mode: EXCLUSIVE
+      name: "LDEVOPDOCKER"
+      nodeProperties:
+      - envVars:
+          env:
+          - key: "JAVA_HOME"
+            value: "/usr/java/latest"
+      - toolLocation:
+          locations:
+          - home: "/usr/java/latest/bin"
+            key: "hudson.model.JDK$DescriptorImpl@OpenJDK8"
+          - home: "/jenkins-dev/tools/maven/apache-maven-3.5.3"
+            key: "hudson.tasks.Maven$MavenInstallation$DescriptorImpl@maven-3.5.3"
+      remoteFS: "/jenkins-dev"
+      retentionStrategy: "manualLaunchOnly"
