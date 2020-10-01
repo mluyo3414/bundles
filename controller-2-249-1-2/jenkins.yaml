@@ -1,3 +1,25 @@
 # jenkins.yaml
 jenkins:
   systemMessage: "Bundle for Controller v.2.249.1.2 using CasC"
+  nodes:
+  - permanent:
+      labelString: "TEST"
+      launcher:
+        nioSsh:
+          connectionDetails:
+            credentialsId: "devcje-oc"
+            displayEnvironment: false
+            keyVerificationStrategy: "blindlyTrust"
+            port: 22
+          host: "lcncdockagntd01"
+      mode: EXCLUSIVE
+      name: "LCNCDOCKAGNTD01"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "/usr/java/latest/bin"
+            key: "hudson.model.JDK$DescriptorImpl@OpenJDK8"
+          - home: "/jenkins-dev/tools/maven/apache-maven-3.5.3"
+            key: "hudson.tasks.Maven$MavenInstallation$DescriptorImpl@maven-3.5.3"
+      remoteFS: "/jenkins-dev"
+      retentionStrategy: "always"
