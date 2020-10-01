@@ -1,0 +1,11 @@
+# bundle.yaml
+apiVersion: "1"
+id: "controller-249-1-2"
+description: "Bundle for Controller v.2.249.1.2"
+version: "1"
+plugins:
+  - "plugins.yaml"
+jcasc:
+  - "jenkins.yaml"
+#catalog:
+#  - "plugin-catalog.yaml"
