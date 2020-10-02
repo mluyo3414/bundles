@@ -2,7 +2,7 @@
 apiVersion: "1"
 id: "controller-249-1-2"
 description: "Bundle for Controller v.2.249.1.2"
-version: "1.4"
+version: "1.5"
 plugins:
   - "plugins.yaml"
 jcasc:
