@@ -47,6 +47,7 @@ plugins:
 - {id: github-branch-source}
 - {id: gradle}
 - {id: handlebars}
+- {id: handy-uri-templates-2-api}
 - {id: infradna-backup}
 - {id: jackson2-api}
 - {id: jaxb}
@@ -62,6 +63,7 @@ plugins:
 - {id: mailer}
 - {id: mapdb-api}
 - {id: matrix-project}
+- {id: mercurial}
 - {id: metrics}
 - {id: momentjs}
 - {id: nectar-license}
