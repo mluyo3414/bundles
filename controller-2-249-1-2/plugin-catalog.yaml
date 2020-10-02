@@ -6,3 +6,4 @@ configurations:
 - description: Plugin catalog
   includePlugins:
     checkmarx: {version: 2020.2.20}
+    cloudbees-bitbucket-branch-source: {version: 2.176.4}

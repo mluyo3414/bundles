@@ -9,6 +9,7 @@ plugins:
 - {id: blueocean-commons}
 - {id: bouncycastle-api}
 - {id: branch-api}
+- {id: cloudbees-bitbucket-branch-source}
 - {id: checkmarx}
 - {id: cloudbees-administrative-monitors}
 - {id: cloudbees-analytics}
