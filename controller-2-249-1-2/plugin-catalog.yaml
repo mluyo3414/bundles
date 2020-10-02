@@ -7,3 +7,5 @@ configurations:
   includePlugins:
     checkmarx: {version: 2020.2.20}
     sonar: {version: '2.11'}
+    pipeline-maven: {version: 3.9.3}
+    h2-api: {version: 1.4.199}

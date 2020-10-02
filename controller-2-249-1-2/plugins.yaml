@@ -1,4 +1,3 @@
-# plugins.yaml
 plugins:
 - {id: ace-editor}
 - {id: apache-httpcomponents-client-4-api}
@@ -9,11 +8,11 @@ plugins:
 - {id: blueocean-commons}
 - {id: bouncycastle-api}
 - {id: branch-api}
-- {id: cloudbees-bitbucket-branch-source}
 - {id: checkmarx}
 - {id: cloudbees-administrative-monitors}
 - {id: cloudbees-analytics}
 - {id: cloudbees-assurance}
+- {id: cloudbees-bitbucket-branch-source}
 - {id: cloudbees-blueocean-default-theme}
 - {id: cloudbees-folder}
 - {id: cloudbees-folders-plus}
@@ -32,6 +31,7 @@ plugins:
 - {id: cloudbees-workflow-template}
 - {id: cloudbees-workflow-ui}
 - {id: command-launcher}
+- {id: config-file-provider}
 - {id: configuration-as-code}
 - {id: credentials}
 - {id: credentials-binding}
@@ -46,6 +46,7 @@ plugins:
 - {id: github-api}
 - {id: github-branch-source}
 - {id: gradle}
+- {id: h2-api}
 - {id: handlebars}
 - {id: handy-uri-templates-2-api}
 - {id: infradna-backup}
@@ -78,6 +79,7 @@ plugins:
 - {id: pipeline-build-step}
 - {id: pipeline-graph-analysis}
 - {id: pipeline-input-step}
+- {id: pipeline-maven}
 - {id: pipeline-milestone-step}
 - {id: pipeline-model-api}
 - {id: pipeline-model-definition}
@@ -89,8 +91,8 @@ plugins:
 - {id: plain-credentials}
 - {id: scm-api}
 - {id: script-security}
-- {id: sonar}
 - {id: snakeyaml-api}
+- {id: sonar}
 - {id: ssh-credentials}
 - {id: structs}
 - {id: support-core}
