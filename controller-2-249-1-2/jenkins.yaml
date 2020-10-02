@@ -49,3 +49,10 @@ jenkins:
             key: "hudson.tasks.Maven$MavenInstallation$DescriptorImpl@maven-3.5.3"
       remoteFS: "/jenkins-dev"
       retentionStrategy: "manualLaunchOnly"
+unclassified:
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketServerEndpoint:
+        displayName: "BitBucket-PROD"
+        manageHooks: false
+        serverUrl: "https://bitbucketp.duke-energy.com"
