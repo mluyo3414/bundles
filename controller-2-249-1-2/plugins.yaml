@@ -89,6 +89,7 @@ plugins:
 - {id: plain-credentials}
 - {id: scm-api}
 - {id: script-security}
+- {id: sonar}
 - {id: snakeyaml-api}
 - {id: ssh-credentials}
 - {id: structs}
