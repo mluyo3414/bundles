@@ -12,7 +12,6 @@ plugins:
 - {id: cloudbees-administrative-monitors}
 - {id: cloudbees-analytics}
 - {id: cloudbees-assurance}
-- {id: cloudbees-bitbucket-branch-source}
 - {id: cloudbees-blueocean-default-theme}
 - {id: cloudbees-folder}
 - {id: cloudbees-folders-plus}
