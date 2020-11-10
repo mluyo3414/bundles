@@ -1,0 +1,20 @@
+# jenkins.yaml
+jenkins:
+  systemMessage: "Bundle for Controller v.2.249.1.2 using CasC"
+unclassified:
+  bitbucketendpointconfiguration:
+    endpoints:
+      - bitbucketServerEndpoint:
+          credentialsId: "creds-1"
+          displayName: "display-1"
+          manageHooks: true
+          serverUrl: "https://url-1"
+          callCanMerge: true
+          webhookImplementationToUse: native
+      - bitbucketServerEndpoint:
+          credentialsId: "creds-2"
+          displayName: "display-2"
+          manageHooks: true
+          serverUrl: "https://url-2"
+          callCanMerge: true
+          webhookImplementationToUse: native

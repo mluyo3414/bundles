@@ -1,0 +1,10 @@
+type: plugin-catalog
+version: '1'
+name: 0-lcncscmjmsd01
+displayName: Catalog from 0-lcncscmjmsd01
+configurations:
+- description: Plugin catalog
+  includePlugins:
+    checkmarx: {version: 2020.2.20}
+    h2-api: {version: 1.4.199}
+    pipeline-maven: {version: 3.9.3}
