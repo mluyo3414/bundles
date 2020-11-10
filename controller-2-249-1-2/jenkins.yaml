@@ -56,3 +56,4 @@ unclassified:
         displayName: "BitBucket-PROD"
         manageHooks: false
         serverUrl: "https://bitbucketp.duke-energy.com"
+        webhookImplementation: NATIVE
