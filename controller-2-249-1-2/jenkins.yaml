@@ -54,6 +54,6 @@ unclassified:
     endpoints:
     - bitbucketServerEndpoint:
         displayName: "BitBucket-PROD"
-        manageHooks: false
+        manageHooks: true
         serverUrl: "https://bitbucketp.duke-energy.com"
         webhookImplementation: NATIVE
